@@ -1,0 +1,26 @@
+{
+  "name": "tailwaind-cursojs",
+  "version": "1.0.0",
+  "description": "This is a Tailwind css practice and some things that i learn in JonMircha's JavasCript course",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/main.css -o ./src/public/css/style.css && node ./src/index.js",
+    "build": "npx tailwindcss -i ./src/main.css -o ./src/public/css/style.css --watch",
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [
+    "Tailwind css",
+    "Javascript",
+    "Practice",
+    "JonMircha"
+  ],
+  "author": "Arnoldo Gonzalez",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+        @apply block px-4 py-2 rounded underline decoration-2 decoration-transparent dark:text-white dark:hover:text-black hover:text-white transition duration-300 hover:bg-sky-400 dark:hover:bg-sky-200 hover:decoration-blue-700;
+    }
+
+    .icon-link {
+        @apply block space-x-2 px-4 py-3 text-white rounded transition-colors duration-500 hover:bg-sky-200 hover:text-black text-center;
+    }
+}
