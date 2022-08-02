@@ -29,10 +29,10 @@
     </header>
     <main class="flex flex-col gap-y-8 items-center mx-auto mt-10 w-4/5" id="characters-place">
         <h2 class="text-3xl font-bold dark:text-white text-center">Find your favorite character</h2>
-        <div id="loading-characters" class="grid grid-cols-2 grid-rows-desk-place mb-8 bg-gray-400 h-section-res res:h-section-desk w-full rounded">
-            <div class="col-start-1 col-end-2 row-span-1 w-11/12 h-10 bg-zinc-600 animate-pulse mx-auto my-6"></div>
-            <div class="col-start-1 col-end-2 row-span-2 w-11/12 h-4/5 bg-zinc-600 animate-pulse mx-auto my-6"></div>
-            <div class="col-start-2 col-end-3 row-start-1 row-end-3 h-full w-full bg-zinc-600 animate-pulse"></div>
+        <div id="loading-characters" class="flex flex-col items-center res:grid res:grid-cols-2 res:grid-rows-desk-place mb-8 bg-gray-400 h-section-res res:h-section-desk w-full rounded w-full max-w-lg res:max-w-full min-h-res-section res:min-h-0">
+            <div class="order-1 col-start-1 col-end-2 row-span-1 w-11/12 h-14 bg-zinc-600 animate-pulse mx-auto my-6"></div>
+            <div class="order-3 col-start-1 col-end-2 row-span-2 w-11/12 h-4/5 bg-zinc-600 animate-pulse mx-auto my-6"></div>
+            <div class="order-2 col-start-2 col-end-3 row-start-1 row-end-3 h-full w-full bg-zinc-600 animate-pulse"></div>
         </div>
         <button id="add-characters" class="hidden px-8 py-4 mx-auto rounded bg-alpha-blue dark:bg-sky-100 font-bold text-xl text-black transition-colors duration-300 hover:bg-sky-400 dark:hover:bg-sky-700 hover:text-white">
             More

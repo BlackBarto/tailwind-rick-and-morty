@@ -738,10 +738,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
@@ -758,8 +754,8 @@ video {
   height: 650px;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-4\/5 {
@@ -847,14 +843,6 @@ video {
 .animate-spin {
   -webkit-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-desk-place {
-  grid-template-rows: 23% 1fr;
 }
 
 .flex-col {
@@ -1053,6 +1041,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .text-black {
